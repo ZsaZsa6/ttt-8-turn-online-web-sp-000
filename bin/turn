@@ -7,7 +7,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
-user_input = gets.split
 
 move(board, 4, "X")
 
