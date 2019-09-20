@@ -8,8 +8,7 @@ puts "Welcome to Tic Tac Toe!"
 
 display_board(board)
 
-move(board, 4, "X")
-move(board, 0, "O")
+turn(board)
  
 display_board(board)
  
